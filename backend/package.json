@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "@koa/router": "^10.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "ethers": "^5.5.4",
+    "express": "^4.17.3",
+    "koa": "^2.13.4",
+    "mongoose": "^6.2.4",
+    "nodemon": "^2.0.15"
+  }
+}
